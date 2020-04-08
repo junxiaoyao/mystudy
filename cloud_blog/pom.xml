@@ -12,7 +12,6 @@
         <module>blog_auth_center_8001</module>
         <module>blog_zuul_6001</module>
         <module>blog_eureka_7001</module>
-        <module>user_service_8080</module>
         <module>user-service-9002</module>
     </modules>
 
