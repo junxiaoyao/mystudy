@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dda24fb6-6e4a-406f-8a9d-0369d83aa86e" name="Default Changelist" comment="" />
+    <list default="true" id="dda24fb6-6e4a-406f-8a9d-0369d83aa86e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog_zuul_6001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_eureka_7001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_eureka_7001/target/classes/com/jxy/blog/EurekaApplication_7001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_zuul_6001/src/main/java/com/jxy/blog/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog_zuul_6001/src/main/java/com/jxy/blog/ZuulApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-9001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-9001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-9002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-9002/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-9002/target/classes/com/jxy/blog/UserApplication_9002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-9002/target/classes/com/jxy/blog/config/ServiceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-9002/target/classes/com/jxy/blog/controllers/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-9002/target/classes/com/jxy/blog/controllers/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-9002/target/classes/com/jxy/blog/filter/GlobalFilter.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -32,6 +48,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1a4o3hTXophd62KbbmtnqpKcKwI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mystudy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_zuul_6001/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -59,14 +76,14 @@
       <recent name="com.jxy.blog.filter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\mystudy\cloud_blog\blog_zuul_6001\src\main\resources" />
       <recent name="E:\workspace\someDemo\cloud_blog\user-service-9002" />
       <recent name="E:\workspace\someDemo\cloud_blog" />
       <recent name="E:\workspace\someDemo\cloud_blog\user_service_9001\src\main\resources" />
       <recent name="E:\workspace\someDemo\cloud_blog\user_service_9001\src\main" />
-      <recent name="E:\workspace\someDemo\cloud_blog\blog_eureka_7001\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication_9002">
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thoughtmechanix.authentication.Application" />
       <module name="authentication-service" />
@@ -200,13 +217,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blog_zuul_6001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxy.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication_9002" />
+        <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="Spring Boot.EurekaApplication_7001" />
+        <item itemvalue="Spring Boot.UserApplication_9002" />
         <item itemvalue="Spring Boot.AuthCenterApp" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Spring Boot.AuthCenterApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +267,7 @@
       <workItem from="1586261693740" duration="186000" />
       <workItem from="1586261938553" duration="1668000" />
       <workItem from="1586263859733" duration="11120000" />
+      <workItem from="1586356230055" duration="809000" />
     </task>
     <servers />
   </component>
@@ -252,58 +283,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586352701289" />
+    <state x="515" y="109" key="CommitChangelistDialog2" timestamp="1586357076523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="515" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586357076523" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586354445263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586354445263" />
-    <state width="1877" height="246" key="GridCell.Tab.0.bottom" timestamp="1586354242246">
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1586356982838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242246" />
-    <state width="1877" height="246" key="GridCell.Tab.0.center" timestamp="1586354242245">
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982838" />
+    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1586356982838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242245" />
-    <state width="1877" height="246" key="GridCell.Tab.0.left" timestamp="1586354242244">
+    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982838" />
+    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1586356982838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242244" />
-    <state width="1877" height="246" key="GridCell.Tab.0.right" timestamp="1586354242245">
+    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982838" />
+    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1586356982838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242245" />
-    <state width="1877" height="246" key="GridCell.Tab.1.bottom" timestamp="1586354242134">
+    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982838" />
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1586356982737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242134" />
-    <state width="1877" height="246" key="GridCell.Tab.1.center" timestamp="1586354242134">
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982737" />
+    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1586356982737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242134" />
-    <state width="1877" height="246" key="GridCell.Tab.1.left" timestamp="1586354242134">
+    <state width="1877" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982737" />
+    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1586356982737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242134" />
-    <state width="1877" height="246" key="GridCell.Tab.1.right" timestamp="1586354242134">
+    <state width="1877" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982737" />
+    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1586356982737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242134" />
-    <state width="1877" height="246" key="GridCell.Tab.2.bottom" timestamp="1586354242134">
+    <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982737" />
+    <state width="1877" height="340" key="GridCell.Tab.2.bottom" timestamp="1586356982737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242134" />
-    <state width="1877" height="246" key="GridCell.Tab.2.center" timestamp="1586354242134">
+    <state width="1877" height="340" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982737" />
+    <state width="1877" height="340" key="GridCell.Tab.2.center" timestamp="1586356982737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242134" />
-    <state width="1877" height="246" key="GridCell.Tab.2.left" timestamp="1586354242134">
+    <state width="1877" height="340" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982737" />
+    <state width="1877" height="340" key="GridCell.Tab.2.left" timestamp="1586356982737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242134" />
-    <state width="1877" height="246" key="GridCell.Tab.2.right" timestamp="1586354242134">
+    <state width="1877" height="340" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982737" />
+    <state width="1877" height="340" key="GridCell.Tab.2.right" timestamp="1586356982737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586354242134" />
+    <state width="1877" height="340" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586356982737" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586261985176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
