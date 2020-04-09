@@ -30,7 +30,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: routes
 #  security:
 #    enabled: false
 #    静态路由映射，即非eureka注册服务
