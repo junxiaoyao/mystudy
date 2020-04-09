@@ -26,7 +26,7 @@ public class TestController {
    // @PreAuthorize("hasRole('ADMIN')")
     public UserModel getById() {
         UserModel userModel = new UserModel();
-        userModel.setUsername("我需要admin权限才能访问");
+        userModel.setUsername("我需要admin权限才能访问 9001");
         userModel.setEmail("111@QQ.COM");
         return userModel;
     }
@@ -34,7 +34,7 @@ public class TestController {
     @RequestMapping("/m2")
     public UserModel getById2() {
         UserModel userModel = new UserModel();
-        userModel.setUsername("我需要认证才能访问");
+        userModel.setUsername("我需要认证才能访问 9001 ");
         userModel.setEmail("111@QQ.COM");
         return userModel;
     }

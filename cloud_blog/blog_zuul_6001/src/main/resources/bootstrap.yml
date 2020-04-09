@@ -25,12 +25,12 @@ zuul:
 #      path: /static/**
 #      url: http://127.0.0.1:8004
   prefix: /api
-
+  sensitive-headers: Cookie,Set-Cookie
 management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: routes
 #  security:
 #    enabled: false
 #    静态路由映射，即非eureka注册服务
