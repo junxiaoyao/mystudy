@@ -75,7 +75,7 @@
     data() {
       return {
         dataList: [],
-        componentName: 'ListComponent',
+        // componentName: 'ListComponent',
         searchParams: {
           comName: '',
           pageNum: 1,
@@ -154,7 +154,11 @@
         this.searchParams.pageNum = this.page.pageNum;
         this.$api.get('/rest/search', this.searchParams, response => {
           if (response.status >= 200 && response.status < 300) {
-            this.dataList = JSON.parse(response.data.data)
+            if (response.data.code === 200) {
+              this.dataList = JSON.parse(response.data.data)
+            } else {
+              this.$router.push("/login")
+            }
           } else {
             console.log(response);
           }
@@ -164,10 +168,14 @@
         this.$api.get('/com/count', this.searchParams, response => {
           //this.dataList = response.data;
           if (response.status >= 200 && response.status < 300) {
-            this.page.total = parseInt(response.data.data)
-            if (this.page.total > 0) {
-              this.page.pageNum = 1;
-              this.search();
+            if (response.data.code === 200) {
+              this.page.total = parseInt(response.data.data)
+              if (this.page.total > 0) {
+                this.page.pageNum = 1;
+                this.search();
+              }
+            } else {
+              this.$router.push("/login")
             }
           } else {
             console.log(response);

@@ -6,7 +6,7 @@ import Login from '@/views/Login'
 import Test_view from '@/views/Test_view'
 import ComList from '@/views/ComList'
 import TestComponent from '@/views/TestComponent'
-
+import Index from '@/views/Index'
 Vue.use(Router)
 
 export default new Router({
@@ -19,6 +19,15 @@ export default new Router({
         isToken: false
       },
       component: HelloWorld
+    },
+    {
+      path: '/index',
+      name: 'Index',
+      meta: {
+        title: '主页',
+        isToken: false
+      },
+      component: Index
     },
     {
       path: '/testComponent',
