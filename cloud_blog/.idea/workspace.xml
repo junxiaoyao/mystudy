@@ -2,18 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dda24fb6-6e4a-406f-8a9d-0369d83aa86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog_zuul_6001/src/main/java/com/jxy/blog/config/ZuulConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licensing-service-8004/src/main/java/com/jxy/blog/config/SomeBeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/AuthCenterApp_8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/config/JWTTokenStoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/config/Oauth2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/config/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/controller/OAuth2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/security/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/security/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/java/com/jxy/blog/security/UserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_auth_center_8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/LicenseApplication_8005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/config/JWTTokenStoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/config/OAuth2ClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/config/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/config/SomeBeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/controllers/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/controllers/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/entity/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/filter/GlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/utils/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/utils/UserContextFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/utils/UserContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog/utils/UserContextInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/UserApplication_9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/config/JWTTokenStoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/config/OAuth2ClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/config/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/controllers/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/controllers/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/filter/GlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/utils/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/utils/UserContextFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/utils/UserContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/java/com/jxy/blog/utils/UserContextInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/com/jxy/blog/UserApplication_9001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/com/jxy/blog/config/OAuth2ClientConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/com/jxy/blog/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/com/jxy/blog/config/ServiceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/com/jxy/blog/controllers/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/com/jxy/blog/controllers/UserModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-jwt-9003/target/classes/com/jxy/blog/filter/GlobalFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_zuul_6001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog_zuul_6001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service-8004/src/main/java/com/jxy/blog/config/OAuth2ClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service-8004/src/main/java/com/jxy/blog/config/OAuth2ClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service-8004/src/main/java/com/jxy/blog/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service-8004/src/main/java/com/jxy/blog/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-9001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-9001/src/main/java/com/jxy/blog/config/OAuth2ClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-9001/src/main/java/com/jxy/blog/config/OAuth2ClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-9001/src/main/java/com/jxy/blog/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-9001/src/main/java/com/jxy/blog/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-9001/src/main/java/com/jxy/blog/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-9001/src/main/java/com/jxy/blog/controllers/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-9002/src/main/java/com/jxy/blog/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-9002/src/main/java/com/jxy/blog/controllers/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +108,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_zuul_6001/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/licensing-service-jwt-8005/src/main/java/com/jxy/blog" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jxy.blog.config" />
       <recent name="com.jxy.blog.entity" />
       <recent name="com.jxy.blog" />
       <recent name="com.jxy.blog.service" />
-      <recent name="com.jxy.blog.config" />
       <recent name="com.jxy.blog.filter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\mystudy\cloud_blog\licensing-service-jwt-8005\src\main\java\com\jxy\blog" />
+      <recent name="E:\workspace\mystudy\cloud_blog\licensing-service-jwt-8005\src\main\java\com\jxy\blog\config" />
+      <recent name="E:\workspace\mystudy\cloud_blog" />
+      <recent name="E:\workspace\mystudy\cloud_blog\user-service-jwt-9003\src\main\java\com\jxy\blog" />
       <recent name="E:\workspace\mystudy\cloud_blog\blog_zuul_6001\src\main\resources" />
-      <recent name="E:\workspace\someDemo\cloud_blog\user-service-9002" />
-      <recent name="E:\workspace\someDemo\cloud_blog" />
-      <recent name="E:\workspace\someDemo\cloud_blog\user_service_9001\src\main\resources" />
-      <recent name="E:\workspace\someDemo\cloud_blog\user_service_9001\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,20 +134,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LicenseApplication_8004">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thoughtmechanix.authentication.Application" />
-      <module name="authentication-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtmechanix.authentication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.LicenseApplication_8005">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="authentication-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.authentication.Application" />
@@ -135,6 +168,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthCenterApp_8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blog_auth_center_8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxy.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.AuthCenterApp_8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="blog_eureka_7001" />
       <extension name="coverage">
@@ -156,6 +202,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LicenseApplication_8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="licensing-service-jwt-8005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.LicenseApplication_8005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApplication_9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-service-9001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.UserApplication_9001" />
@@ -172,6 +225,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.UserApplication_9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication_9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service-jwt-9003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxy.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.UserApplication_9003" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,7 +270,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="blog_zuul_6001" />
       <extension name="coverage">
         <pattern>
@@ -213,12 +279,40 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.ZuulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="blog_zuul_6001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxy.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.ZuulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="blog_zuul_6001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxy.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxy.blog.ZuulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
       <item itemvalue="Spring Boot.LicenseApplication_8004" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.UserApplication_9001" />
@@ -227,15 +321,17 @@
       <item itemvalue="Spring Boot.AuthCenterApp" />
       <item itemvalue="Spring Boot.EurekaApplication_7001" />
       <item itemvalue="Spring Boot.UserApplication_9002" />
-      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.AuthCenterApp_8002" />
+      <item itemvalue="Spring Boot.UserApplication_9003" />
+      <item itemvalue="Spring Boot.LicenseApplication_8005" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.UserApplication_9003" />
+        <item itemvalue="Spring Boot.EurekaApplication_7001" />
+        <item itemvalue="Spring Boot.AuthCenterApp_8002" />
         <item itemvalue="Spring Boot.UserApplication_9002" />
         <item itemvalue="Spring Boot.AuthCenterApp" />
-        <item itemvalue="Spring Boot.EurekaApplication_7001" />
-        <item itemvalue="Spring Boot.ZuulApplication" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -257,8 +353,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="New Folder" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -283,12 +378,25 @@
       <workItem from="1586261938553" duration="1668000" />
       <workItem from="1586263859733" duration="11120000" />
       <workItem from="1586356230055" duration="809000" />
-      <workItem from="1586435865098" duration="5785000" />
+      <workItem from="1586435865098" duration="5862000" />
+      <workItem from="1586546202358" duration="6927000" />
     </task>
+    <task id="LOCAL-00001" summary="微服务调用微服务，传递认证信息待解决">
+      <created>1586444150228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586444150228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="微服务调用微服务，传递认证信息待解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="微服务调用微服务，传递认证信息待解决" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586440903195">
@@ -303,74 +411,82 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586352701289" />
-    <state x="515" y="109" key="CommitChangelistDialog2" timestamp="1586357233008">
+    <state x="558" y="222" key="#xdebugger.evaluate" timestamp="1586699160044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586357233008" />
+    <state x="558" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1586699160044" />
+    <state x="515" y="109" key="CommitChangelistDialog2" timestamp="1586444148856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="515" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586444148856" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586354445263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586354445263" />
-    <state width="1293" height="482" key="GridCell.Tab.0.bottom" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.0.bottom" timestamp="1586699898257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.0.center" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898257" />
+    <state width="1293" height="470" key="GridCell.Tab.0.center" timestamp="1586699898256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.0.left" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898256" />
+    <state width="1293" height="470" key="GridCell.Tab.0.left" timestamp="1586699898254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.0.right" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898254" />
+    <state width="1293" height="470" key="GridCell.Tab.0.right" timestamp="1586699898256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.1.bottom" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898256" />
+    <state width="1293" height="470" key="GridCell.Tab.1.bottom" timestamp="1586699898118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.1.center" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898118" />
+    <state width="1293" height="470" key="GridCell.Tab.1.center" timestamp="1586699898117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.1.left" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898117" />
+    <state width="1293" height="470" key="GridCell.Tab.1.left" timestamp="1586699898117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.1.right" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898117" />
+    <state width="1293" height="470" key="GridCell.Tab.1.right" timestamp="1586699898118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.2.bottom" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898118" />
+    <state width="1293" height="470" key="GridCell.Tab.2.bottom" timestamp="1586699898118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.2.center" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898118" />
+    <state width="1293" height="470" key="GridCell.Tab.2.center" timestamp="1586699898118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.2.left" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898118" />
+    <state width="1293" height="470" key="GridCell.Tab.2.left" timestamp="1586699898118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
-    <state width="1293" height="482" key="GridCell.Tab.2.right" timestamp="1586440909225">
+    <state width="1293" height="470" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898118" />
+    <state width="1293" height="470" key="GridCell.Tab.2.right" timestamp="1586699898118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="482" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586440909225" />
+    <state width="1293" height="470" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586699898118" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586261985176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586261985176" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586357240321">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586444161479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586357240321" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586444161479" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1586440391570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1586440391570" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1586687357513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586687357513" />
     <state x="665" y="311" key="git4idea.merge.GitPullDialog" timestamp="1586435935671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

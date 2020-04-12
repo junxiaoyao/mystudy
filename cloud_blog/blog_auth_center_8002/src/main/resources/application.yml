@@ -1,0 +1,10 @@
+server:
+  port: 8002
+  servlet:
+    context-path: /auth
+signing:
+  key: jxy-test-redis-jwt
+spring:
+  redis:
+    database: 0
+    host: 192.168.231.87
