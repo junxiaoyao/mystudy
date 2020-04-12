@@ -27,7 +27,11 @@ export default new Router({
         title: '主页',
         isToken: false
       },
-      component: Index
+      component:Index
+      // component: {
+      //   default:Index,
+      //  // left:Test
+      // }
     },
     {
       path: '/testComponent',

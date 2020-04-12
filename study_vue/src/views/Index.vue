@@ -29,26 +29,29 @@
         <el-menu-item v-show="showUser">{{ user }}</el-menu-item>
       </el-menu>
     </el-header>
-    <el-main >
-     4
+    <el-main>
+      4
     </el-main>
-    <el-footer>Footer</el-footer>
+    <el-footer>
+    <Footer></Footer>
+    </el-footer>
   </el-container>
 </template>
 
 <script>
   import Login from '@/views/Login'
   import TestComponent from '@/views/TestComponent'
+  import Footer from '@/views/Footer'
   export default {
     name: "Index",
     mounted: function () {
-     let token= localStorage.getItem("authentication");
-     if (token){
-       console.log(this.user)
-       //this.loginVisible=true,
-       this.showUser=true
-       this.user="--------君逍遥----"
-     }
+      let token = localStorage.getItem("authentication");
+      if (token) {
+        console.log(this.user)
+        //this.loginVisible=true,
+        this.showUser = true
+        this.user = "--------君逍遥----"
+      }
     },
     data: function () {
       return {
@@ -70,7 +73,7 @@
       }
     },
     components: {
-      Login,TestComponent
+      Login, TestComponent,Footer
     }
   }
 </script>
@@ -80,7 +83,7 @@
     background-color: #B3C0D1;
     color: #333;
     text-align: center;
-    line-height: 100px;
+
   }
 
   .el-aside {
