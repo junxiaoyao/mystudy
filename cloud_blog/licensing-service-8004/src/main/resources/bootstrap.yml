@@ -48,3 +48,5 @@ eureka:
       defaultZone: http://127.0.0.1:7001/eureka/,
 example:
   property: "I AM IN THE DEFAULT"
+signing:
+  key: "jxy-test-redis-jwt"

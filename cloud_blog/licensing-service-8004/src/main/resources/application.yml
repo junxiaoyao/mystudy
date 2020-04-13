@@ -17,7 +17,7 @@
 security:
   oauth2:
     resource:
-      user-info-uri: http://127.0.0.1:8001/auth/user
+      user-info-uri: http://127.0.0.1:8002/auth/user
     client:
       client-id: client
       client-secret: $2a$10$r5vSTD7377q4m7AImGc2XehvfWcMyxcoJsQhjYvqx/eRzYzTqV9VO

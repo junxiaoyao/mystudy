@@ -31,20 +31,20 @@ public class TestController {
     @PreAuthorize("hasRole('ADMIN')")
     public Emp getById() {
         Emp emp = new Emp();
-        UserModel userModel = userService.getById();
+        UserModel userModel = userService.m1();
         emp.setName(userModel.getUsername());
         emp.setId(265156L);
-        emp.setSex("男");
+        emp.setSex("licence-8004");
         return emp;
     }
 
     @RequestMapping("/m2")
     public Emp getById2() {
         Emp emp = new Emp();
-        UserModel userModel = userService.getById();
+        UserModel userModel = userService.m2();
         emp.setName(userModel.getUsername());
         emp.setId(265156L);
-        emp.setSex("男");
+        emp.setSex("licence-8004");
         return emp;
     }
 }

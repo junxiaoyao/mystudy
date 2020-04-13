@@ -34,7 +34,7 @@ public class TestController {
         UserModel userModel = userService.m1();
         emp.setName(userModel.getUsername());
         emp.setId(265156L);
-        emp.setSex("男");
+        emp.setSex("licence-8005");
         return emp;
     }
 
@@ -44,7 +44,7 @@ public class TestController {
         UserModel userModel = userService.m2();
         emp.setName(userModel.getUsername());
         emp.setId(265156L);
-        emp.setSex("男");
+        emp.setSex("licence-8005");
         return emp;
     }
 }
