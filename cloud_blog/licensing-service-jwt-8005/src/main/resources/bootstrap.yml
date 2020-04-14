@@ -6,6 +6,9 @@ spring:
   profiles:
     active:
       default
+  zipkin:
+    base-url: http://127.0.0.1:6002
+
 #  cloud:
 #    config:
 #      uri: http://localhost:8888

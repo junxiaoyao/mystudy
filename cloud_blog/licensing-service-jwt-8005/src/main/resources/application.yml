@@ -26,3 +26,8 @@ example:
   property: "I AM IN THE DEFAULT"
 signing:
   key: "jxy-test-redis-jwt"
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.thoughtmechanix: DEBUG

@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/licensing-service-jwt-8005/pom.xml" />
         <option value="$PROJECT_DIR$/user-service-jwt-9003/pom.xml" />
         <option value="$PROJECT_DIR$/blog_auth_center_8002/pom.xml" />
+        <option value="$PROJECT_DIR$/licensing-service-jwt-stream-8006/pom.xml" />
+        <option value="$PROJECT_DIR$/blog_zipkin_6002/pom.xml" />
       </list>
     </option>
   </component>

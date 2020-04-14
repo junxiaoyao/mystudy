@@ -32,7 +32,7 @@ public class GlobalFilter implements Filter {
             String value = request.getHeader(key);
             map.put(key, value);
         }
-        System.out.println("444"+servletRequest.toString());
+        //System.out.println("444"+servletRequest.toString());
         filterChain.doFilter(servletRequest,servletResponse);
     }
 

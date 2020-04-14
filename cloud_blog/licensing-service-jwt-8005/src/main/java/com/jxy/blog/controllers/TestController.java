@@ -4,6 +4,7 @@ package com.jxy.blog.controllers;
 import com.jxy.blog.config.ServiceConfig;
 import com.jxy.blog.entity.UserModel;
 import com.jxy.blog.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("test")
+@Slf4j
 public class TestController {
     @Autowired
     private ServiceConfig config;

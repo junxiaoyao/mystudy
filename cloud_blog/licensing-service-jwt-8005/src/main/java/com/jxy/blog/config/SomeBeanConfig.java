@@ -1,5 +1,6 @@
 package com.jxy.blog.config;
 
+import brave.sampler.Sampler;
 import com.jxy.blog.utils.UserContextInterceptor;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -36,6 +37,10 @@ public class SomeBeanConfig {
         return restTemplate;
     }
 
+    @Bean
+    public Sampler defaultSampler() {
+        return Sampler.ALWAYS_SAMPLE;
+    }
     //@Qualifier("oauth2ClientContext")
 //    @Bean
 //    @Primary

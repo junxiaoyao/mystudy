@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="blog_eureka_7001" />
+        <module name="licensing-service-jwt-stream-8006" />
         <module name="licensing-service-8004" />
-        <module name="blog_auth_center_8002" />
+        <module name="user-service-jwt-9003" />
         <module name="blog_eureka" />
         <module name="user-service-9002" />
         <module name="user-service-9001" />
-        <module name="user-service-jwt-9003" />
+        <module name="blog_auth_center_8002" />
         <module name="blog_auth_center_8001" />
         <module name="licensing-service-jwt-8005" />
+        <module name="blog_zipkin_6002" />
         <module name="blog_zuul_6001" />
       </profile>
     </annotationProcessing>
@@ -30,9 +32,11 @@
       <module name="blog_auth_center_8002" options="-parameters" />
       <module name="blog_auth_center_demo" options="" />
       <module name="blog_eureka_7001" options="-parameters" />
+      <module name="blog_zipkin_6002" options="-parameters" />
       <module name="blog_zuul_6001" options="-parameters" />
       <module name="licensing-service-8004" options="-parameters" />
       <module name="licensing-service-jwt-8005" options="-parameters" />
+      <module name="licensing-service-jwt-stream-8006" options="-parameters" />
       <module name="user-service-9001" options="-parameters" />
       <module name="user-service-9002" options="-parameters" />
       <module name="user-service-jwt-9003" options="-parameters" />
