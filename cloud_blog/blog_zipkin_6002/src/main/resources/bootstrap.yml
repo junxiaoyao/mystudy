@@ -59,3 +59,8 @@ eureka:
 #    com.netflix: WARN
 #    org.springframework.web: WARN
 #    com.thoughtmechanix: DEBUG
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false:
