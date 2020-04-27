@@ -2,7 +2,6 @@
   <div>
    <div style="width: 1000px;height:400px;background-color: #333333;position: relative;">
      <one-dynamic></one-dynamic>
-     <one-dynamic></one-dynamic>
    </div>
   </div>
 </template>

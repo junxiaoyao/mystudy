@@ -39,6 +39,15 @@ export default new Router({
       component: resolve => require(['@/views/test/DynamicePage_bak.vue'], resolve)
     },
     {
+      path: '/test4',
+      name: 'HelloWorld',
+      meta: {
+        title: 'HelloWorld',
+        isToken: false
+      },
+      component: resolve => require(['@/views/test/TestEchartsGraph.vue'], resolve)
+    },
+    {
       path: '/index',
       name: 'Index',
       meta: {
