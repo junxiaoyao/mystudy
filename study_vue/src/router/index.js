@@ -21,6 +21,24 @@ export default new Router({
       component: HelloWorld
     },
     {
+      path: '/test2',
+      name: 'HelloWorld',
+      meta: {
+        title: 'HelloWorld',
+        isToken: false
+      },
+      component: resolve => require(['@/views/test/DynamicePage.vue'], resolve)
+    },
+    {
+      path: '/test3',
+      name: 'HelloWorld',
+      meta: {
+        title: 'HelloWorld',
+        isToken: false
+      },
+      component: resolve => require(['@/views/test/DynamicePage_bak.vue'], resolve)
+    },
+    {
       path: '/index',
       name: 'Index',
       meta: {

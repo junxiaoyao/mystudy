@@ -7,10 +7,12 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import store from './store'
 import Api from './axios/index.js';
+import echarts from "echarts";
 // import ListComponent from '@/views/ListComponent.vue'
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.prototype.$api = Api;
+Vue.prototype.$echarts = echarts;
 /* eslint-disable no-new */
 
 
